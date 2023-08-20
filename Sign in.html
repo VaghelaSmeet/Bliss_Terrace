@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Bliss Terrace | Sign up</title>
+
+</head>
+<body style="color:black">
+<form action="db.php" method="post" target="index.html">
+   <div class="box">
+    <div class="container">
+
+        <div class="top">
+            <span>Already have an account? <a href="login.html">log in</a></span>
+            <header>Sign In</header>
+        </div>
+		
+        <div class="input-field">
+            <input type="text" class="input" placeholder="username" id="" name="user">
+            <i class='bx bx-user' ></i>
+        </div>
+        <br>
+        <div class="input-field">
+            <input type="gmail" class="input" placeholder="E-Mail" id="" name="gmail">
+            <i class='bx bx-mail-send' ></i>
+        </div>
+		<br>
+        <div class="input-field">
+            <input type="text" class="input" placeholder="Address" id="" name="address">
+            <i class='bx bx-location-plus' ></i>
+        </div>
+        <br>
+		<div class="input-field">
+            <input type="integer" class="input" placeholder="number" id="" name="number">
+            <i class='bx bx-phone' ></i>
+        </div>
+		<br>
+        <div class="input-field">
+            <input type="Password" class="input" placeholder="Create Password" id="" name="password">
+            <i class='bx bx-lock-alt'></i>
+        </div>
+        <br>
+        <div class="input-field">
+            <input type="password" class="input" placeholder="confirm password" name="cpassword">
+            <i class='bx bx-lock-alt' ></i>
+        </div>
+        <br>
+        <div class="input-field">
+            <input type="submit" class="submit" value="Login" id="" href="index.html">
+        </div>
+		<br>
+        <select name="user_type">
+            <option value="user">user</option>
+            <option value="admin">admin</option>
+          </select>
+          <br>
+		<div class="input-field">
+            <input type="reset" class="reset" value="reset" id="">
+        </div>
+
+        <div class="two-col">
+            <div class="one">
+               <input type="checkbox" name="" id="check">
+               <label for="check"> Remember Me</label>
+            </div>
+            <div class="two">
+                <label><a href="#">Forgot password?</a></label>
+            </div>
+        </div>
+    </div>
+</div>
+</form>  
+</body>
+</html>
